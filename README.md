@@ -1,45 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+<br>
+  <a href="https://github.com/yongtany"><img src="https://i.imgur.com/C4X4AUB.png" alt="Express MongoDB Server" width="128"></a>
+<br>
+<br>
+React and Redux project
+</h1>
 
-## Available Scripts
+<p align="center">React and Redux project</p>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License MIT">
+  </a>
+</p>
 
-### `npm start`
+<hr />
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Introduction
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Boilerplate for project development when combined with redux in a react.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Redux store has been created in store directory. 
+- Redux are made up of ducks patterns.
+- Immutablejs are applied.
+- Sass(Syntactically Awesome StyleSheets) are injected.
 
-### `npm run build`
+## Getting started
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repo using `https://github.com/yongtany/react-redux-boilerplate`
+2. Move to the appropriate directory: `cd react-redux-project`.
+4. Run `yarn` or `npm install` to install dependencies.
+5. Set `.env` file with your mongoURI.
+6. Run `npm start` to see the example app at `http://localhost:3000/`.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Commands
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `npm start` - start at `http://localhost:3000/`
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# react-redux-boilerplate
+MIT license, Copyright (c) 2018 Yongtany.
